@@ -264,13 +264,13 @@ h1.logo>a{
 }
 .choose-items p{
 	line-height: 22px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
 	color:#999;
 }
 /*------------about-us---------*/
 .about-us{
-	background-color: #f8feff;
+	background-color: #f0fbfd;
 	padding: 60px 0;
 	margin-top: 20px;
 }
@@ -407,7 +407,7 @@ h1.logo>a{
 	color: var(--secondary-color);
 }
 .service-box{
-	background-color: var(--bg-color);
+	background-color: #f0fbfd;
 	padding: 15px 0 80px 0;
 }
 .text-content{
@@ -513,6 +513,9 @@ h1.logo>a{
 .mission-items a:hover{
 	text-decoration-line: underline;
 }
+.mission p{
+	padding-top:10px;
+}
 .mission-items a{
 	text-decoration-line: none;
 	color: #333;
@@ -604,15 +607,15 @@ h1.logo>a{
 	color: #555;
 }
 .portfolio-nav-sec span:hover{
-	background: var(--primary-color);
-	color: #fff;
+	background: #00bcd42b;
+	color: var(--primary-color);
 }
 .portfolio-nav-sec span.active{
 	width: 50px;
 	height: 50px;
 	border-radius: 25px;
-	background: var(--primary-color);
-	color: #fff;
+	background: #00bcd42b;
+	color: var(--primary-color);
 }
 .perfume-items{
 	position: relative;
@@ -666,7 +669,7 @@ h1.logo>a{
 
 /*--------team-content------*/
 .team{
-	background: #f8feff;
+	background: #f0fbfd;
 	padding-bottom: 70px;
 }
 .team-about{
@@ -808,7 +811,7 @@ h1.logo>a{
 	padding: 15px;
 }
 .quatation-content{
-	background: #f8feff;
+	background: #f0fbfd;
 	padding: 20px 0 60px 0;
 }
 .quatation-content span i{
@@ -820,7 +823,7 @@ h1.logo>a{
 	padding-right: 15px;
 }
 .quatation-content ul{
-	margin-top: 50px;
+	margin-top: 2	5px;
 }
 .quatation-content li{
 	display: flex;
@@ -852,13 +855,14 @@ h1.logo>a{
     padding-left: 120px;
     box-shadow: 0 0 20px #ccc;
 	min-height: 150px;
+	margin: 0 20px;
 }
 .contact>i{
-	    position: absolute;
+	position: absolute;
     text-align: center;
     line-height: 44px;
     top: 28px;
-    left: 58px;
+    left: 50px;
     border: dotted 2px var(--primary-color);
     height: 50px;
     width: 50px;
@@ -882,8 +886,7 @@ form.row{
 	padding: 30px 15px;
     background: #fff;
     box-shadow: 0 0 30px #ccc;
-    margin: 0;
-    margin-top: 30px;
+    margin:20px 20px;
 }
 
 .form-control{
@@ -912,8 +915,7 @@ form.row{
 }
 /*--------footer------*/
 .footer-info{
-	background-color: #f8feff;
-	padding: 10px 0;
+	background-color: #f0fbfd;
 }
 .footer-items h2{
 	font-weight: 300;
@@ -962,7 +964,6 @@ form.row{
 }
 .footer-items-text{
 	position:relative;
-	padding: 12px 0;
 	margin: 20px 0;
 }
 .btn2{
@@ -978,8 +979,11 @@ form.row{
 .footer-items-text input{
 	padding: 5px 35px;
 	border:0;
-	color: #ccc;
     margin: 2px 8px;
+}
+.footer-items-text-focus:focus{
+	border:1px solid #f5f;
+	outline: 0;
 }
 .btn2:hover{
 	background: #21b4c7;
@@ -992,7 +996,7 @@ form.row{
 	margin-top: 15px;
 }
 .copy-right{
-	padding: 15px;
+	padding: 20px 0;
 }
 .copy-right p{
 	font-size: 14px;
